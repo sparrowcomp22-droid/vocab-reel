@@ -1,142 +1,1262 @@
 [
-  { "id": "v001", "en": "on location", "ja": "ロケで、現場で(スタジオではなく実際の場所での撮影)", "example": "We shot the interview on location at the client's headquarters.", "ipa": "/ɒn loʊˈkeɪʃən/", "tag": "video" },
-  { "id": "v002", "en": "wrap", "ja": "撮影終了、クランクアップ", "example": "That's a wrap! Great work today, everyone.", "ipa": "/ræp/", "tag": "video" },
-  { "id": "v003", "en": "rough cut", "ja": "初期編集版、粗編集", "example": "I'll send you the rough cut by Friday for your first impressions.", "ipa": "/rʌf kʌt/", "tag": "video" },
-  { "id": "v004", "en": "fine cut", "ja": "本編集版(仕上げに近い編集)", "example": "The fine cut is almost ready, just a few more tweaks to the pacing.", "ipa": "/faɪn kʌt/", "tag": "video" },
-  { "id": "v005", "en": "color grading", "ja": "カラーグレーディング(色調補正)", "example": "Color grading really brought out the warmth of the sunset shots.", "ipa": "/ˈkʌlər ˈɡreɪdɪŋ/", "tag": "video" },
-  { "id": "v006", "en": "voiceover", "ja": "ナレーション、ボイスオーバー", "example": "We need a native English speaker to record the voiceover.", "ipa": "/ˈvɔɪsoʊvər/", "tag": "video" },
-  { "id": "v007", "en": "storyboard", "ja": "絵コンテ", "example": "Let's finalize the storyboard before we schedule the shoot.", "ipa": "/ˈstɔːribɔːrd/", "tag": "video" },
-  { "id": "v008", "en": "b-roll", "ja": "Bロール(補助的な映像素材)", "example": "Can you grab some extra b-roll of the office while you're there?", "ipa": "/biː roʊl/", "tag": "video" },
-  { "id": "v009", "en": "establishing shot", "ja": "状況説明ショット(場所や状況を示す最初のカット)", "example": "We open with an establishing shot of the city skyline.", "ipa": "/ɪˈstæblɪʃɪŋ ʃɒt/", "tag": "video" },
-  { "id": "v010", "en": "cutaway", "ja": "カットアウェイ(別アングルへの切り返しショット)", "example": "Use a cutaway to the audience while the speaker keeps talking.", "ipa": "/ˈkʌtəweɪ/", "tag": "video" },
-  { "id": "v011", "en": "jump cut", "ja": "ジャンプカット(連続性のない急な場面転換)", "example": "The jump cuts give the video a fast, energetic feel.", "ipa": "/dʒʌmp kʌt/", "tag": "video" },
-  { "id": "v012", "en": "cross dissolve", "ja": "クロスディゾルブ(場面が重なって切り替わる効果)", "example": "Add a cross dissolve between the two interview clips.", "ipa": "/krɔːs dɪˈzɒlv/", "tag": "video" },
-  { "id": "v013", "en": "lower third", "ja": "ロワーサード(画面下部の名前・肩書テロップ)", "example": "Please add a lower third with his name and job title.", "ipa": "/ˈloʊər θɜːrd/", "tag": "video" },
-  { "id": "v014", "en": "green screen", "ja": "グリーンスクリーン(クロマキー合成用背景)", "example": "We'll shoot this segment against a green screen and add the background later.", "ipa": "/ɡriːn skriːn/", "tag": "video" },
-  { "id": "v015", "en": "gimbal", "ja": "ジンバル(手ブレ補正用の撮影機材)", "example": "The gimbal keeps the walking shots smooth and stable.", "ipa": "/ˈdʒɪmbəl/", "tag": "video" },
-  { "id": "v016", "en": "dolly shot", "ja": "ドリーショット(台車で動かしながら撮る移動撮影)", "example": "We used a dolly shot to slowly push in on the CEO.", "ipa": "/ˈdɒli ʃɒt/", "tag": "video" },
-  { "id": "v017", "en": "pan", "ja": "パン(カメラを水平に動かすこと)", "example": "Slowly pan across the factory floor to show the scale.", "ipa": "/pæn/", "tag": "video" },
-  { "id": "v018", "en": "tilt", "ja": "ティルト(カメラを垂直に動かすこと)", "example": "Tilt up from the product to the logo on the wall.", "ipa": "/tɪlt/", "tag": "video" },
-  { "id": "v019", "en": "tracking shot", "ja": "トラッキングショット(被写体を追いかける移動撮影)", "example": "The tracking shot follows her as she walks through the warehouse.", "ipa": "/ˈtrækɪŋ ʃɒt/", "tag": "video" },
-  { "id": "v020", "en": "depth of field", "ja": "被写界深度", "example": "A shallow depth of field keeps the background nicely blurred.", "ipa": "/dɛpθ əv fiːld/", "tag": "video" },
-  { "id": "v021", "en": "aspect ratio", "ja": "アスペクト比(画面の縦横比)", "example": "Please deliver a vertical version at a 9:16 aspect ratio for social media.", "ipa": "/ˈæspɛkt ˈreɪʃioʊ/", "tag": "video" },
-  { "id": "v022", "en": "frame rate", "ja": "フレームレート(1秒あたりのコマ数)", "example": "Shoot at a higher frame rate so we can slow it down later.", "ipa": "/freɪm reɪt/", "tag": "video" },
-  { "id": "v023", "en": "white balance", "ja": "ホワイトバランス", "example": "The footage looks too orange, let's fix the white balance in post.", "ipa": "/waɪt ˈbæləns/", "tag": "video" },
-  { "id": "v024", "en": "aperture", "ja": "絞り、アパーチャー", "example": "Open up the aperture a bit, this room is quite dark.", "ipa": "/ˈæpərtʃər/", "tag": "video" },
-  { "id": "v025", "en": "lav mic", "ja": "ラベリアマイク(ピンマイク)", "example": "Clip the lav mic to his lapel and run the cable under his shirt.", "ipa": "/læv maɪk/", "tag": "video" },
-  { "id": "v026", "en": "boom mic", "ja": "ブームマイク(棒の先につけるマイク)", "example": "Keep the boom mic just out of frame above the actors.", "ipa": "/buːm maɪk/", "tag": "video" },
-  { "id": "v027", "en": "ambient sound", "ja": "環境音", "example": "Record thirty seconds of ambient sound for each location.", "ipa": "/ˈæmbiənt saʊnd/", "tag": "video" },
-  { "id": "v028", "en": "sync sound", "ja": "シンクロ音声(映像と同期した音声)", "example": "Make sure the sync sound lines up with the lip movement.", "ipa": "/sɪŋk saʊnd/", "tag": "video" },
-  { "id": "v029", "en": "timecode", "ja": "タイムコード", "example": "The client left notes referencing the timecode of each edit point.", "ipa": "/ˈtaɪmkoʊd/", "tag": "video" },
-  { "id": "v030", "en": "render", "ja": "レンダリング(書き出し処理)", "example": "It'll take about twenty minutes to render the final export.", "ipa": "/ˈrɛndər/", "tag": "video" },
-  { "id": "v031", "en": "export settings", "ja": "書き出し設定", "example": "Double-check the export settings before delivering the final file.", "ipa": "/ˈɛkspɔːrt ˈsɛtɪŋz/", "tag": "video" },
-  { "id": "v032", "en": "codec", "ja": "コーデック(動画圧縮方式)", "example": "Which codec do you want for the final deliverable, H.264 or ProRes?", "ipa": "/ˈkoʊdɛk/", "tag": "video" },
-  { "id": "v033", "en": "proxy footage", "ja": "プロキシ映像(軽量な編集用代替データ)", "example": "I'm editing with proxy footage since the original files are too heavy.", "ipa": "/ˈprɒksi ˈfʊtɪdʒ/", "tag": "video" },
-  { "id": "v034", "en": "master file", "ja": "マスターファイル(最終保存用の元データ)", "example": "Keep the master file archived in case we need to re-export later.", "ipa": "/ˈmæstər faɪl/", "tag": "video" },
-  { "id": "v035", "en": "shot list", "ja": "撮影リスト、香盤表的な撮影項目一覧", "example": "Let's go through the shot list one more time before we start rolling.", "ipa": "/ʃɒt lɪst/", "tag": "video" },
-  { "id": "b001", "en": "deliverable", "ja": "成果物、納品物", "example": "The final deliverable includes a 90-second edit and three social cutdowns.", "ipa": "/dɪˈlɪvərəbəl/", "tag": "business" },
-  { "id": "b002", "en": "turnaround time", "ja": "納期、対応にかかる時間", "example": "Our standard turnaround time for a rough cut is five business days.", "ipa": "/ˈtɜːrnəraʊnd taɪm/", "tag": "business" },
-  { "id": "b003", "en": "revision request", "ja": "修正依頼", "example": "We received a revision request asking to shorten the intro.", "ipa": "/rɪˈvɪʒən rɪˈkwɛst/", "tag": "business" },
-  { "id": "b004", "en": "invoice", "ja": "請求書", "example": "I'll send the invoice once the final video is approved.", "ipa": "/ˈɪnvɔɪs/", "tag": "business" },
-  { "id": "b005", "en": "quote", "ja": "見積もり", "example": "Could you send us a quote for a two-day shoot with editing included?", "ipa": "/kwoʊt/", "tag": "business" },
-  { "id": "b006", "en": "scope of work", "ja": "業務範囲、作業範囲", "example": "Adding drone footage is outside the original scope of work.", "ipa": "/skoʊp əv wɜːrk/", "tag": "business" },
-  { "id": "b007", "en": "kick-off meeting", "ja": "キックオフミーティング(プロジェクト開始の打ち合わせ)", "example": "Let's schedule a kick-off meeting to align on the creative direction.", "ipa": "/kɪk ɔːf ˈmiːtɪŋ/", "tag": "business" },
-  { "id": "b008", "en": "creative brief", "ja": "クリエイティブブリーフ(制作方針をまとめた資料)", "example": "The creative brief outlines the tone, audience, and key message.", "ipa": "/kriˈeɪtɪv briːf/", "tag": "business" },
-  { "id": "b009", "en": "stakeholder", "ja": "利害関係者、関係者", "example": "We need sign-off from all stakeholders before final delivery.", "ipa": "/ˈsteɪkhoʊldər/", "tag": "business" },
-  { "id": "b010", "en": "feedback loop", "ja": "フィードバックのやり取り、確認サイクル", "example": "Let's set up a clear feedback loop so revisions don't drag on.", "ipa": "/ˈfiːdbæk luːp/", "tag": "business" },
-  { "id": "b011", "en": "sign-off", "ja": "承認、最終確認", "example": "We can't start the next phase without the client's sign-off.", "ipa": "/saɪn ɔːf/", "tag": "business" },
-  { "id": "b012", "en": "NDA", "ja": "秘密保持契約(Non-Disclosure Agreement)", "example": "Please sign the NDA before we share the unreleased footage.", "ipa": "/ɛn diː eɪ/", "tag": "business" },
-  { "id": "b013", "en": "contract", "ja": "契約書", "example": "The contract specifies two rounds of revisions are included.", "ipa": "/ˈkɒntrækt/", "tag": "business" },
-  { "id": "b014", "en": "deadline", "ja": "締め切り、納期", "example": "Our deadline for the final export is next Wednesday.", "ipa": "/ˈdɛdlaɪn/", "tag": "business" },
-  { "id": "b015", "en": "milestone", "ja": "マイルストーン(節目となる工程)", "example": "Approval of the rough cut is the next milestone in the schedule.", "ipa": "/ˈmaɪlstoʊn/", "tag": "business" },
-  { "id": "b016", "en": "cost overrun", "ja": "予算超過", "example": "Extra shoot days will lead to a cost overrun if not approved first.", "ipa": "/kɔːst ˈoʊvərrʌn/", "tag": "business" },
-  { "id": "b017", "en": "usage rights", "ja": "使用権", "example": "The usage rights only cover the client's website and social channels.", "ipa": "/ˈjuːsɪdʒ raɪts/", "tag": "business" },
-  { "id": "b018", "en": "royalty-free", "ja": "ロイヤリティフリー(追加使用料不要)", "example": "We licensed a royalty-free track for the background music.", "ipa": "/ˈrɔɪəlti friː/", "tag": "business" },
-  { "id": "b019", "en": "watermark", "ja": "透かし、ウォーターマーク", "example": "The preview link has a watermark until the invoice is paid.", "ipa": "/ˈwɔːtərmɑːrk/", "tag": "business" },
-  { "id": "b020", "en": "placeholder", "ja": "仮素材、プレースホルダー", "example": "That's just a placeholder graphic, we'll swap in the final logo later.", "ipa": "/ˈpleɪshoʊldər/", "tag": "business" },
-  { "id": "b021", "en": "final approval", "ja": "最終承認", "example": "We can deliver the master file as soon as we get final approval.", "ipa": "/ˈfaɪnəl əˈpruːvəl/", "tag": "business" },
-  { "id": "b022", "en": "raw footage", "ja": "未編集の生素材", "example": "Could you also send us the raw footage for our archive?", "ipa": "/rɔː ˈfʊtɪdʒ/", "tag": "business" },
-  { "id": "b023", "en": "archive", "ja": "アーカイブ、保管する", "example": "We archive all project files for at least one year after delivery.", "ipa": "/ˈɑːrkaɪv/", "tag": "business" },
-  { "id": "b024", "en": "backup", "ja": "バックアップ", "example": "Always keep a backup of the master file on a separate drive.", "ipa": "/ˈbækʌp/", "tag": "business" },
-  { "id": "b025", "en": "file transfer", "ja": "ファイル転送", "example": "I'll set up a file transfer link since the footage is too large for email.", "ipa": "/faɪl ˈtrænsfɜːr/", "tag": "business" },
-  { "id": "b026", "en": "follow up", "ja": "フォローアップする、後日連絡する", "example": "I'll follow up with the client tomorrow about the payment.", "ipa": "/ˈfɒloʊ ʌp/", "tag": "business" },
-  { "id": "b027", "en": "due date", "ja": "支払期日、期限", "example": "The invoice due date is thirty days from delivery.", "ipa": "/duː deɪt/", "tag": "business" },
-  { "id": "b028", "en": "purchase order", "ja": "発注書(PO)", "example": "We can't start work until the purchase order is confirmed.", "ipa": "/ˈpɜːrtʃəs ˈɔːrdər/", "tag": "business" },
-  { "id": "b029", "en": "retainer", "ja": "顧問契約、継続契約料", "example": "They pay us a monthly retainer for ongoing content production.", "ipa": "/rɪˈteɪnər/", "tag": "business" },
-  { "id": "b030", "en": "subcontractor", "ja": "下請け業者、外部委託先", "example": "We brought in a subcontractor to handle the drone shots.", "ipa": "/ˌsʌbkənˈtræktər/", "tag": "business" },
-  { "id": "d001", "en": "How's it going?", "ja": "調子はどう?", "example": "Hey, how's it going? It's been a while since we talked.", "ipa": "", "tag": "daily" },
-  { "id": "d002", "en": "Nice to meet you", "ja": "はじめまして", "example": "Nice to meet you, I've heard a lot about your work.", "ipa": "", "tag": "daily" },
-  { "id": "d003", "en": "Could you repeat that?", "ja": "もう一度言っていただけますか?", "example": "Sorry, could you repeat that? The connection cut out for a second.", "ipa": "", "tag": "daily" },
-  { "id": "d004", "en": "I appreciate it", "ja": "感謝します、ありがたいです", "example": "Thanks for turning this around so quickly, I really appreciate it.", "ipa": "", "tag": "daily" },
-  { "id": "d005", "en": "No worries", "ja": "気にしないで、問題ないよ", "example": "No worries, we can push the meeting to tomorrow.", "ipa": "", "tag": "daily" },
-  { "id": "d006", "en": "Let me check", "ja": "確認しますね", "example": "Let me check my calendar and get back to you.", "ipa": "", "tag": "daily" },
-  { "id": "d007", "en": "I'll get back to you", "ja": "また後で連絡します", "example": "I'll get back to you by the end of the day with an answer.", "ipa": "", "tag": "daily" },
-  { "id": "d008", "en": "Sounds good", "ja": "いいですね、了解です", "example": "Sounds good, let's plan to meet at ten.", "ipa": "", "tag": "daily" },
-  { "id": "d009", "en": "Let's touch base", "ja": "近いうちに連絡を取り合いましょう", "example": "Let's touch base next week once you've reviewed the draft.", "ipa": "", "tag": "daily" },
-  { "id": "d010", "en": "Take your time", "ja": "ゆっくりでいいですよ", "example": "No rush at all, take your time reviewing the footage.", "ipa": "", "tag": "daily" },
-  { "id": "d011", "en": "I'm on my way", "ja": "今向かっています", "example": "I'm on my way, I should be there in ten minutes.", "ipa": "", "tag": "daily" },
-  { "id": "d012", "en": "Running a few minutes late", "ja": "少し遅れています", "example": "Sorry, I'm running a few minutes late because of traffic.", "ipa": "", "tag": "daily" },
-  { "id": "d013", "en": "Thanks for your patience", "ja": "お待たせしてすみません、辛抱強く待ってくれてありがとう", "example": "Thanks for your patience while we sorted out the file issue.", "ipa": "", "tag": "daily" },
-  { "id": "d014", "en": "Have a safe trip", "ja": "気をつけて行ってらっしゃい", "example": "Have a safe trip, see you when you're back!", "ipa": "", "tag": "daily" },
-  { "id": "d015", "en": "Let me know if you need anything", "ja": "何か必要なことがあれば教えてください", "example": "Let me know if you need anything else before the shoot.", "ipa": "", "tag": "daily" },
-  { "id": "d016", "en": "That works for me", "ja": "それで大丈夫です", "example": "Tuesday afternoon? That works for me.", "ipa": "", "tag": "daily" },
-  { "id": "d017", "en": "Let's circle back", "ja": "また後で話しましょう、改めて相談しましょう", "example": "Let's circle back on the budget once we have the final scope.", "ipa": "", "tag": "daily" },
-  { "id": "d018", "en": "I'll keep you posted", "ja": "また随時報告します", "example": "I'll keep you posted as soon as I hear from the client.", "ipa": "", "tag": "daily" },
-  { "id": "d019", "en": "Just to confirm", "ja": "確認なんですが", "example": "Just to confirm, the shoot starts at 9am on Thursday, right?", "ipa": "", "tag": "daily" },
-  { "id": "d020", "en": "Looking forward to it", "ja": "楽しみにしています", "example": "Looking forward to it, this project sounds exciting.", "ipa": "", "tag": "daily" },
-  { "id": "d021", "en": "See you then", "ja": "その時に会いましょう", "example": "Great, see you then at the studio.", "ipa": "", "tag": "daily" },
-  { "id": "d022", "en": "Talk soon", "ja": "また近いうちに話しましょう", "example": "Talk soon, I'll send the files tonight.", "ipa": "", "tag": "daily" },
-  { "id": "d023", "en": "My pleasure", "ja": "どういたしまして、光栄です", "example": "Thanks so much for your help. My pleasure, anytime.", "ipa": "", "tag": "daily" },
-  { "id": "d024", "en": "Not a problem", "ja": "問題ありません", "example": "Not a problem, we can reshoot that scene tomorrow.", "ipa": "", "tag": "daily" },
-  { "id": "d025", "en": "I hope this email finds you well", "ja": "お元気でお過ごしのことと思います(メール冒頭の挨拶)", "example": "I hope this email finds you well, I'm reaching out about the project timeline.", "ipa": "", "tag": "daily" },
-  { "id": "h001", "en": "rifle", "ja": "ライフル銃", "example": "He cleaned his rifle before the hunting trip.", "ipa": "/ˈraɪfəl/", "tag": "hunting" },
-  { "id": "h002", "en": "shotgun", "ja": "散弾銃", "example": "A shotgun is commonly used for bird hunting.", "ipa": "/ˈʃɒtɡʌn/", "tag": "hunting" },
-  { "id": "h003", "en": "scope", "ja": "スコープ、照準器", "example": "Adjust the scope before you head out to the stand.", "ipa": "/skoʊp/", "tag": "hunting" },
-  { "id": "h004", "en": "trigger", "ja": "引き金、トリガー", "example": "Keep your finger off the trigger until you're ready to shoot.", "ipa": "/ˈtrɪɡər/", "tag": "hunting" },
-  { "id": "h005", "en": "safety catch", "ja": "安全装置(セーフティ)", "example": "Always engage the safety catch when you're not aiming.", "ipa": "/ˈseɪfti kætʃ/", "tag": "hunting" },
-  { "id": "h006", "en": "ammunition", "ja": "弾薬", "example": "Store your ammunition separately from the firearm.", "ipa": "/ˌæmjəˈnɪʃən/", "tag": "hunting" },
-  { "id": "h007", "en": "cartridge", "ja": "薬莢、実包", "example": "Make sure you're using the right cartridge for your rifle.", "ipa": "/ˈkɑːrtrɪdʒ/", "tag": "hunting" },
-  { "id": "h008", "en": "trap", "ja": "罠、トラップ", "example": "We checked the traps early in the morning.", "ipa": "/træp/", "tag": "hunting" },
-  { "id": "h009", "en": "snare", "ja": "くくり罠、スネア", "example": "Snares must be checked regularly under local regulations.", "ipa": "/snɛr/", "tag": "hunting" },
-  { "id": "h010", "en": "bolt action", "ja": "ボルトアクション式", "example": "He prefers a bolt action rifle for long-range shots.", "ipa": "/boʊlt ˈækʃən/", "tag": "hunting" },
-  { "id": "h011", "en": "muzzle", "ja": "銃口", "example": "Never point the muzzle at anything you don't intend to shoot.", "ipa": "/ˈmʌzəl/", "tag": "hunting" },
-  { "id": "h012", "en": "barrel", "ja": "銃身", "example": "Clean the barrel thoroughly after every hunt.", "ipa": "/ˈbærəl/", "tag": "hunting" },
-  { "id": "h013", "en": "stock", "ja": "銃床", "example": "The stock felt a bit too long for him.", "ipa": "/stɒk/", "tag": "hunting" },
-  { "id": "h014", "en": "sling", "ja": "スリング(銃を担ぐベルト)", "example": "Use a sling to carry the rifle comfortably on the hike in.", "ipa": "/slɪŋ/", "tag": "hunting" },
-  { "id": "h015", "en": "crosshairs", "ja": "十字線、レティクル", "example": "Keep the crosshairs steady before you squeeze the trigger.", "ipa": "/ˈkrɔːshɛrz/", "tag": "hunting" },
-  { "id": "h016", "en": "choke", "ja": "チョーク(散弾の広がりを調整する部品)", "example": "A tighter choke gives a denser shot pattern at range.", "ipa": "/tʃoʊk/", "tag": "hunting" },
-  { "id": "h017", "en": "gauge", "ja": "ゲージ(散弾銃の口径単位)", "example": "A 12 gauge shotgun is the most common choice.", "ipa": "/ɡeɪdʒ/", "tag": "hunting" },
-  { "id": "h018", "en": "caliber", "ja": "口径", "example": "What caliber does your rifle chamber?", "ipa": "/ˈkælɪbər/", "tag": "hunting" },
-  { "id": "h019", "en": "decoy", "ja": "デコイ、おとり", "example": "We set up the decoys before sunrise.", "ipa": "/ˈdiːkɔɪ/", "tag": "hunting" },
-  { "id": "h020", "en": "blind", "ja": "ブラインド(身を隠す仮設の隠れ場所)", "example": "We waited quietly inside the blind for the ducks.", "ipa": "/blaɪnd/", "tag": "hunting" },
-  { "id": "h021", "en": "tree stand", "ja": "ツリースタンド(樹上の見張り台)", "example": "Always wear a harness when climbing into a tree stand.", "ipa": "/triː stænd/", "tag": "hunting" },
-  { "id": "h022", "en": "game camera", "ja": "トレイルカメラ(自動撮影カメラ)", "example": "The game camera showed a big buck passing through at night.", "ipa": "/ɡeɪm ˈkæmərə/", "tag": "hunting" },
-  { "id": "h023", "en": "bow", "ja": "弓", "example": "Bow season starts earlier than rifle season here.", "ipa": "/boʊ/", "tag": "hunting" },
-  { "id": "h024", "en": "crossbow", "ja": "クロスボウ(洋弓銃)", "example": "He switched to a crossbow this year.", "ipa": "/ˈkrɔːsboʊ/", "tag": "hunting" },
-  { "id": "h025", "en": "broadhead", "ja": "ブロードヘッド(矢じり)", "example": "Make sure your broadheads are sharp before the hunt.", "ipa": "/ˈbrɔːdhɛd/", "tag": "hunting" },
-  { "id": "h026", "en": "stalking", "ja": "ストーキング、忍び寄ること", "example": "Stalking deer requires patience and moving with the wind.", "ipa": "/ˈstɔːkɪŋ/", "tag": "hunting" },
-  { "id": "h027", "en": "tracking", "ja": "追跡すること", "example": "Tracking a wounded animal can take hours.", "ipa": "/ˈtrækɪŋ/", "tag": "hunting" },
-  { "id": "h028", "en": "field dressing", "ja": "内臓処理(解体作業)", "example": "Field dressing the deer right away keeps the meat fresh.", "ipa": "/fiːld ˈdrɛsɪŋ/", "tag": "hunting" },
-  { "id": "h029", "en": "game warden", "ja": "猟区管理官", "example": "The game warden checked everyone's licenses at the checkpoint.", "ipa": "/ɡeɪm ˈwɔːrdən/", "tag": "hunting" },
-  { "id": "h030", "en": "hunting license", "ja": "狩猟免許", "example": "You need a valid hunting license before you go out.", "ipa": "/ˈhʌntɪŋ ˈlaɪsəns/", "tag": "hunting" },
-  { "id": "h031", "en": "closed season", "ja": "禁猟期", "example": "Hunting is prohibited during the closed season.", "ipa": "/kloʊzd ˈsiːzən/", "tag": "hunting" },
-  { "id": "h032", "en": "open season", "ja": "狩猟解禁期間", "example": "Open season for deer starts in November.", "ipa": "/ˈoʊpən ˈsiːzən/", "tag": "hunting" },
-  { "id": "h033", "en": "bag limit", "ja": "捕獲制限数", "example": "The bag limit is two deer per hunter this season.", "ipa": "/bæɡ ˈlɪmɪt/", "tag": "hunting" },
-  { "id": "h034", "en": "still hunting", "ja": "忍び猟(静かに歩いて獲物を探す猟法)", "example": "Still hunting means moving slowly and stopping often to look and listen.", "ipa": "", "tag": "hunting" },
-  { "id": "h035", "en": "spot and stalk", "ja": "スポット・アンド・ストーク猟", "example": "Spot and stalk works well in open terrain.", "ipa": "", "tag": "hunting" },
-  { "id": "h036", "en": "shot placement", "ja": "弾着位置、狙う部位", "example": "Good shot placement ensures a quick, ethical kill.", "ipa": "", "tag": "hunting" },
-  { "id": "h037", "en": "blood trail", "ja": "血痕の跡", "example": "We followed the blood trail into the woods.", "ipa": "/blʌd treɪl/", "tag": "hunting" },
-  { "id": "h038", "en": "gut pile", "ja": "内臓の残骸(解体後に残る部分)", "example": "Leave the gut pile away from any trails.", "ipa": "/ɡʌt paɪl/", "tag": "hunting" },
-  { "id": "h039", "en": "wildlife management", "ja": "野生動物管理", "example": "Wildlife management helps keep animal populations balanced.", "ipa": "", "tag": "hunting" },
-  { "id": "h040", "en": "culling", "ja": "個体数調整のための間引き", "example": "Culling is sometimes necessary to protect the local ecosystem.", "ipa": "/ˈkʌlɪŋ/", "tag": "hunting" },
-  { "id": "h041", "en": "deer population", "ja": "鹿の個体数", "example": "The deer population has grown rapidly in the past decade.", "ipa": "", "tag": "hunting" },
-  { "id": "h042", "en": "crop damage", "ja": "農作物被害", "example": "Crop damage from wild boar has become a serious problem.", "ipa": "/krɒp ˈdæmɪdʒ/", "tag": "hunting" },
-  { "id": "h043", "en": "invasive species", "ja": "外来種、侵略的外来種", "example": "Invasive species can disrupt the local food chain.", "ipa": "", "tag": "hunting" },
-  { "id": "h044", "en": "pest control", "ja": "有害鳥獣駆除、害獣駆除", "example": "Pest control programs aim to reduce damage to farmland.", "ipa": "/pɛst kənˈtroʊl/", "tag": "hunting" },
-  { "id": "h045", "en": "nuisance animal", "ja": "有害獣", "example": "The town hired a hunter to deal with the nuisance animals.", "ipa": "", "tag": "hunting" },
-  { "id": "h046", "en": "muzzle discipline", "ja": "銃口管理(常に安全な方向に向ける基本動作)", "example": "Muzzle discipline is the first rule taught in any hunting safety course.", "ipa": "", "tag": "hunting" },
-  { "id": "h047", "en": "load / unload", "ja": "装填する／弾を抜く", "example": "Always unload your firearm before crossing a fence.", "ipa": "", "tag": "hunting" },
-  { "id": "h048", "en": "safe direction", "ja": "安全な方向", "example": "Keep the barrel pointed in a safe direction at all times.", "ipa": "/seɪf dɪˈrɛkʃən/", "tag": "hunting" },
-  { "id": "h049", "en": "know your target and beyond", "ja": "標的とその先を確認する(安全原則)", "example": "Know your target and beyond before you ever pull the trigger.", "ipa": "", "tag": "hunting" },
-  { "id": "h050", "en": "hunter orange", "ja": "ハンターオレンジ(視認性の高い安全色)", "example": "Wearing hunter orange makes you visible to other hunters.", "ipa": "", "tag": "hunting" }
+  {
+    "id": "v001",
+    "en": "on location",
+    "ja": "ロケで、現場で(スタジオではなく実際の場所での撮影)",
+    "example": "We shot the interview on location at the client's headquarters.",
+    "exampleJa": "クライアント本社のロケ現場でインタビューを撮影しました。",
+    "ipa": "/ɒn loʊˈkeɪʃən/",
+    "tag": "video"
+  },
+  {
+    "id": "v002",
+    "en": "wrap",
+    "ja": "撮影終了、クランクアップ",
+    "example": "That's a wrap! Great work today, everyone.",
+    "exampleJa": "これで終了(クランクアップ)です!今日はお疲れさまでした、皆さん。",
+    "ipa": "/ræp/",
+    "tag": "video"
+  },
+  {
+    "id": "v003",
+    "en": "rough cut",
+    "ja": "初期編集版、粗編集",
+    "example": "I'll send you the rough cut by Friday for your first impressions.",
+    "exampleJa": "金曜日までに初期編集版(ラフカット)をお送りしますので、第一印象を聞かせてください。",
+    "ipa": "/rʌf kʌt/",
+    "tag": "video"
+  },
+  {
+    "id": "v004",
+    "en": "fine cut",
+    "ja": "本編集版(仕上げに近い編集)",
+    "example": "The fine cut is almost ready, just a few more tweaks to the pacing.",
+    "exampleJa": "本編集版はほぼ完成していて、テンポをもう少し調整するだけです。",
+    "ipa": "/faɪn kʌt/",
+    "tag": "video"
+  },
+  {
+    "id": "v005",
+    "en": "color grading",
+    "ja": "カラーグレーディング(色調補正)",
+    "example": "Color grading really brought out the warmth of the sunset shots.",
+    "exampleJa": "カラーグレーディングによって夕焼けのカットの温かみがしっかり引き出されました。",
+    "ipa": "/ˈkʌlər ˈɡreɪdɪŋ/",
+    "tag": "video"
+  },
+  {
+    "id": "v006",
+    "en": "voiceover",
+    "ja": "ナレーション、ボイスオーバー",
+    "example": "We need a native English speaker to record the voiceover.",
+    "exampleJa": "ナレーションの収録にはネイティブの英語話者が必要です。",
+    "ipa": "/ˈvɔɪsoʊvər/",
+    "tag": "video"
+  },
+  {
+    "id": "v007",
+    "en": "storyboard",
+    "ja": "絵コンテ",
+    "example": "Let's finalize the storyboard before we schedule the shoot.",
+    "exampleJa": "撮影の日程を組む前に絵コンテを確定させましょう。",
+    "ipa": "/ˈstɔːribɔːrd/",
+    "tag": "video"
+  },
+  {
+    "id": "v008",
+    "en": "b-roll",
+    "ja": "Bロール(補助的な映像素材)",
+    "example": "Can you grab some extra b-roll of the office while you're there?",
+    "exampleJa": "そちらにいる間に、オフィスのBロールを追加で撮ってもらえますか?",
+    "ipa": "/biː roʊl/",
+    "tag": "video"
+  },
+  {
+    "id": "v009",
+    "en": "establishing shot",
+    "ja": "状況説明ショット(場所や状況を示す最初のカット)",
+    "example": "We open with an establishing shot of the city skyline.",
+    "exampleJa": "冒頭は都市のスカイラインを映す状況説明ショットから始めます。",
+    "ipa": "/ɪˈstæblɪʃɪŋ ʃɒt/",
+    "tag": "video"
+  },
+  {
+    "id": "v010",
+    "en": "cutaway",
+    "ja": "カットアウェイ(別アングルへの切り返しショット)",
+    "example": "Use a cutaway to the audience while the speaker keeps talking.",
+    "exampleJa": "話者が話し続けている間に、観客へのカットアウェイを使いましょう。",
+    "ipa": "/ˈkʌtəweɪ/",
+    "tag": "video"
+  },
+  {
+    "id": "v011",
+    "en": "jump cut",
+    "ja": "ジャンプカット(連続性のない急な場面転換)",
+    "example": "The jump cuts give the video a fast, energetic feel.",
+    "exampleJa": "ジャンプカットによって映像にスピード感とエネルギーが生まれます。",
+    "ipa": "/dʒʌmp kʌt/",
+    "tag": "video"
+  },
+  {
+    "id": "v012",
+    "en": "cross dissolve",
+    "ja": "クロスディゾルブ(場面が重なって切り替わる効果)",
+    "example": "Add a cross dissolve between the two interview clips.",
+    "exampleJa": "2つのインタビュー映像の間にクロスディゾルブを入れてください。",
+    "ipa": "/krɔːs dɪˈzɒlv/",
+    "tag": "video"
+  },
+  {
+    "id": "v013",
+    "en": "lower third",
+    "ja": "ロワーサード(画面下部の名前・肩書テロップ)",
+    "example": "Please add a lower third with his name and job title.",
+    "exampleJa": "彼の名前と肩書きを示すロワーサードを追加してください。",
+    "ipa": "/ˈloʊər θɜːrd/",
+    "tag": "video"
+  },
+  {
+    "id": "v014",
+    "en": "green screen",
+    "ja": "グリーンスクリーン(クロマキー合成用背景)",
+    "example": "We'll shoot this segment against a green screen and add the background later.",
+    "exampleJa": "このパートはグリーンスクリーンの前で撮影し、背景は後から合成します。",
+    "ipa": "/ɡriːn skriːn/",
+    "tag": "video"
+  },
+  {
+    "id": "v015",
+    "en": "gimbal",
+    "ja": "ジンバル(手ブレ補正用の撮影機材)",
+    "example": "The gimbal keeps the walking shots smooth and stable.",
+    "exampleJa": "ジンバルのおかげで歩きながらの撮影も滑らかで安定します。",
+    "ipa": "/ˈdʒɪmbəl/",
+    "tag": "video"
+  },
+  {
+    "id": "v016",
+    "en": "dolly shot",
+    "ja": "ドリーショット(台車で動かしながら撮る移動撮影)",
+    "example": "We used a dolly shot to slowly push in on the CEO.",
+    "exampleJa": "CEOにゆっくり寄っていくため、ドリーショットを使いました。",
+    "ipa": "/ˈdɒli ʃɒt/",
+    "tag": "video"
+  },
+  {
+    "id": "v017",
+    "en": "pan",
+    "ja": "パン(カメラを水平に動かすこと)",
+    "example": "Slowly pan across the factory floor to show the scale.",
+    "exampleJa": "工場のフロアをゆっくりパンして、規模の大きさを見せてください。",
+    "ipa": "/pæn/",
+    "tag": "video"
+  },
+  {
+    "id": "v018",
+    "en": "tilt",
+    "ja": "ティルト(カメラを垂直に動かすこと)",
+    "example": "Tilt up from the product to the logo on the wall.",
+    "exampleJa": "製品から壁のロゴへ向けてティルトアップしてください。",
+    "ipa": "/tɪlt/",
+    "tag": "video"
+  },
+  {
+    "id": "v019",
+    "en": "tracking shot",
+    "ja": "トラッキングショット(被写体を追いかける移動撮影)",
+    "example": "The tracking shot follows her as she walks through the warehouse.",
+    "exampleJa": "トラッキングショットで、倉庫を歩く彼女を追いかけます。",
+    "ipa": "/ˈtrækɪŋ ʃɒt/",
+    "tag": "video"
+  },
+  {
+    "id": "v020",
+    "en": "depth of field",
+    "ja": "被写界深度",
+    "example": "A shallow depth of field keeps the background nicely blurred.",
+    "exampleJa": "被写界深度を浅くすることで、背景を綺麗にぼかせます。",
+    "ipa": "/dɛpθ əv fiːld/",
+    "tag": "video"
+  },
+  {
+    "id": "v021",
+    "en": "aspect ratio",
+    "ja": "アスペクト比(画面の縦横比)",
+    "example": "Please deliver a vertical version at a 9:16 aspect ratio for social media.",
+    "exampleJa": "SNS用に、9:16のアスペクト比で縦型バージョンを納品してください。",
+    "ipa": "/ˈæspɛkt ˈreɪʃioʊ/",
+    "tag": "video"
+  },
+  {
+    "id": "v022",
+    "en": "frame rate",
+    "ja": "フレームレート(1秒あたりのコマ数)",
+    "example": "Shoot at a higher frame rate so we can slow it down later.",
+    "exampleJa": "後でスローにできるよう、高いフレームレートで撮影してください。",
+    "ipa": "/freɪm reɪt/",
+    "tag": "video"
+  },
+  {
+    "id": "v023",
+    "en": "white balance",
+    "ja": "ホワイトバランス",
+    "example": "The footage looks too orange, let's fix the white balance in post.",
+    "exampleJa": "映像がオレンジがかりすぎているので、編集(ポスト作業)でホワイトバランスを直しましょう。",
+    "ipa": "/waɪt ˈbæləns/",
+    "tag": "video"
+  },
+  {
+    "id": "v024",
+    "en": "aperture",
+    "ja": "絞り、アパーチャー",
+    "example": "Open up the aperture a bit, this room is quite dark.",
+    "exampleJa": "この部屋はかなり暗いので、絞りを少し開けてください。",
+    "ipa": "/ˈæpərtʃər/",
+    "tag": "video"
+  },
+  {
+    "id": "v025",
+    "en": "lav mic",
+    "ja": "ラベリアマイク(ピンマイク)",
+    "example": "Clip the lav mic to his lapel and run the cable under his shirt.",
+    "exampleJa": "ラベリアマイクを襟に留めて、ケーブルはシャツの下に通してください。",
+    "ipa": "/læv maɪk/",
+    "tag": "video"
+  },
+  {
+    "id": "v026",
+    "en": "boom mic",
+    "ja": "ブームマイク(棒の先につけるマイク)",
+    "example": "Keep the boom mic just out of frame above the actors.",
+    "exampleJa": "ブームマイクは俳優たちの頭上、画角ギリギリ外に構えておいてください。",
+    "ipa": "/buːm maɪk/",
+    "tag": "video"
+  },
+  {
+    "id": "v027",
+    "en": "ambient sound",
+    "ja": "環境音",
+    "example": "Record thirty seconds of ambient sound for each location.",
+    "exampleJa": "各ロケ地で30秒ずつ環境音を録音してください。",
+    "ipa": "/ˈæmbiənt saʊnd/",
+    "tag": "video"
+  },
+  {
+    "id": "v028",
+    "en": "sync sound",
+    "ja": "シンクロ音声(映像と同期した音声)",
+    "example": "Make sure the sync sound lines up with the lip movement.",
+    "exampleJa": "同期音声が口の動きとずれていないか確認してください。",
+    "ipa": "/sɪŋk saʊnd/",
+    "tag": "video"
+  },
+  {
+    "id": "v029",
+    "en": "timecode",
+    "ja": "タイムコード",
+    "example": "The client left notes referencing the timecode of each edit point.",
+    "exampleJa": "クライアントは各編集点のタイムコードを参照したメモを残しました。",
+    "ipa": "/ˈtaɪmkoʊd/",
+    "tag": "video"
+  },
+  {
+    "id": "v030",
+    "en": "render",
+    "ja": "レンダリング(書き出し処理)",
+    "example": "It'll take about twenty minutes to render the final export.",
+    "exampleJa": "最終書き出しのレンダリングには20分ほどかかります。",
+    "ipa": "/ˈrɛndər/",
+    "tag": "video"
+  },
+  {
+    "id": "v031",
+    "en": "export settings",
+    "ja": "書き出し設定",
+    "example": "Double-check the export settings before delivering the final file.",
+    "exampleJa": "最終ファイルを納品する前に、書き出し設定をもう一度確認してください。",
+    "ipa": "/ˈɛkspɔːrt ˈsɛtɪŋz/",
+    "tag": "video"
+  },
+  {
+    "id": "v032",
+    "en": "codec",
+    "ja": "コーデック(動画圧縮方式)",
+    "example": "Which codec do you want for the final deliverable, H.264 or ProRes?",
+    "exampleJa": "最終納品物のコーデックはH.264とProResのどちらがいいですか?",
+    "ipa": "/ˈkoʊdɛk/",
+    "tag": "video"
+  },
+  {
+    "id": "v033",
+    "en": "proxy footage",
+    "ja": "プロキシ映像(軽量な編集用代替データ)",
+    "example": "I'm editing with proxy footage since the original files are too heavy.",
+    "exampleJa": "元素材が重すぎるので、プロキシ映像で編集しています。",
+    "ipa": "/ˈprɒksi ˈfʊtɪdʒ/",
+    "tag": "video"
+  },
+  {
+    "id": "v034",
+    "en": "master file",
+    "ja": "マスターファイル(最終保存用の元データ)",
+    "example": "Keep the master file archived in case we need to re-export later.",
+    "exampleJa": "後で再書き出しが必要になる場合に備えて、マスターファイルを保管しておいてください。",
+    "ipa": "/ˈmæstər faɪl/",
+    "tag": "video"
+  },
+  {
+    "id": "v035",
+    "en": "shot list",
+    "ja": "撮影リスト、香盤表的な撮影項目一覧",
+    "example": "Let's go through the shot list one more time before we start rolling.",
+    "exampleJa": "撮影を始める前に、撮影リストをもう一度確認しましょう。",
+    "ipa": "/ʃɒt lɪst/",
+    "tag": "video"
+  },
+  {
+    "id": "b001",
+    "en": "deliverable",
+    "ja": "成果物、納品物",
+    "example": "The final deliverable includes a 90-second edit and three social cutdowns.",
+    "exampleJa": "最終成果物には90秒の本編と、SNS用の短尺版が3本含まれます。",
+    "ipa": "/dɪˈlɪvərəbəl/",
+    "tag": "business"
+  },
+  {
+    "id": "b002",
+    "en": "turnaround time",
+    "ja": "納期、対応にかかる時間",
+    "example": "Our standard turnaround time for a rough cut is five business days.",
+    "exampleJa": "ラフカットの標準的な納期は営業日で5日です。",
+    "ipa": "/ˈtɜːrnəraʊnd taɪm/",
+    "tag": "business"
+  },
+  {
+    "id": "b003",
+    "en": "revision request",
+    "ja": "修正依頼",
+    "example": "We received a revision request asking to shorten the intro.",
+    "exampleJa": "オープニングを短くしてほしいという修正依頼を受け取りました。",
+    "ipa": "/rɪˈvɪʒən rɪˈkwɛst/",
+    "tag": "business"
+  },
+  {
+    "id": "b004",
+    "en": "invoice",
+    "ja": "請求書",
+    "example": "I'll send the invoice once the final video is approved.",
+    "exampleJa": "最終動画が承認され次第、請求書をお送りします。",
+    "ipa": "/ˈɪnvɔɪs/",
+    "tag": "business"
+  },
+  {
+    "id": "b005",
+    "en": "quote",
+    "ja": "見積もり",
+    "example": "Could you send us a quote for a two-day shoot with editing included?",
+    "exampleJa": "編集込みの2日間撮影の見積もりを送っていただけますか?",
+    "ipa": "/kwoʊt/",
+    "tag": "business"
+  },
+  {
+    "id": "b006",
+    "en": "scope of work",
+    "ja": "業務範囲、作業範囲",
+    "example": "Adding drone footage is outside the original scope of work.",
+    "exampleJa": "ドローン映像の追加は、当初の業務範囲(スコープ)には含まれていません。",
+    "ipa": "/skoʊp əv wɜːrk/",
+    "tag": "business"
+  },
+  {
+    "id": "b007",
+    "en": "kick-off meeting",
+    "ja": "キックオフミーティング(プロジェクト開始の打ち合わせ)",
+    "example": "Let's schedule a kick-off meeting to align on the creative direction.",
+    "exampleJa": "クリエイティブの方向性をすり合わせるために、キックオフミーティングを設定しましょう。",
+    "ipa": "/kɪk ɔːf ˈmiːtɪŋ/",
+    "tag": "business"
+  },
+  {
+    "id": "b008",
+    "en": "creative brief",
+    "ja": "クリエイティブブリーフ(制作方針をまとめた資料)",
+    "example": "The creative brief outlines the tone, audience, and key message.",
+    "exampleJa": "クリエイティブブリーフには、トーン・ターゲット層・伝えたい要点がまとめられています。",
+    "ipa": "/kriˈeɪtɪv briːf/",
+    "tag": "business"
+  },
+  {
+    "id": "b009",
+    "en": "stakeholder",
+    "ja": "利害関係者、関係者",
+    "example": "We need sign-off from all stakeholders before final delivery.",
+    "exampleJa": "最終納品の前に、すべての関係者からの承認が必要です。",
+    "ipa": "/ˈsteɪkhoʊldər/",
+    "tag": "business"
+  },
+  {
+    "id": "b010",
+    "en": "feedback loop",
+    "ja": "フィードバックのやり取り、確認サイクル",
+    "example": "Let's set up a clear feedback loop so revisions don't drag on.",
+    "exampleJa": "修正作業が長引かないよう、明確なフィードバックのやり取りを決めておきましょう。",
+    "ipa": "/ˈfiːdbæk luːp/",
+    "tag": "business"
+  },
+  {
+    "id": "b011",
+    "en": "sign-off",
+    "ja": "承認、最終確認",
+    "example": "We can't start the next phase without the client's sign-off.",
+    "exampleJa": "クライアントの承認がなければ、次の工程には進めません。",
+    "ipa": "/saɪn ɔːf/",
+    "tag": "business"
+  },
+  {
+    "id": "b012",
+    "en": "NDA",
+    "ja": "秘密保持契約(Non-Disclosure Agreement)",
+    "example": "Please sign the NDA before we share the unreleased footage.",
+    "exampleJa": "未公開映像を共有する前に、秘密保持契約(NDA)にサインしてください。",
+    "ipa": "/ɛn diː eɪ/",
+    "tag": "business"
+  },
+  {
+    "id": "b013",
+    "en": "contract",
+    "ja": "契約書",
+    "example": "The contract specifies two rounds of revisions are included.",
+    "exampleJa": "契約書には、修正2回分が含まれると明記されています。",
+    "ipa": "/ˈkɒntrækt/",
+    "tag": "business"
+  },
+  {
+    "id": "b014",
+    "en": "deadline",
+    "ja": "締め切り、納期",
+    "example": "Our deadline for the final export is next Wednesday.",
+    "exampleJa": "最終書き出しの締め切りは来週水曜日です。",
+    "ipa": "/ˈdɛdlaɪn/",
+    "tag": "business"
+  },
+  {
+    "id": "b015",
+    "en": "milestone",
+    "ja": "マイルストーン(節目となる工程)",
+    "example": "Approval of the rough cut is the next milestone in the schedule.",
+    "exampleJa": "ラフカットの承認が、スケジュール上の次のマイルストーンです。",
+    "ipa": "/ˈmaɪlstoʊn/",
+    "tag": "business"
+  },
+  {
+    "id": "b016",
+    "en": "cost overrun",
+    "ja": "予算超過",
+    "example": "Extra shoot days will lead to a cost overrun if not approved first.",
+    "exampleJa": "事前承認なしに撮影日を追加すると、予算超過につながります。",
+    "ipa": "/kɔːst ˈoʊvərrʌn/",
+    "tag": "business"
+  },
+  {
+    "id": "b017",
+    "en": "usage rights",
+    "ja": "使用権",
+    "example": "The usage rights only cover the client's website and social channels.",
+    "exampleJa": "使用権はクライアントのウェブサイトとSNSアカウントに限られます。",
+    "ipa": "/ˈjuːsɪdʒ raɪts/",
+    "tag": "business"
+  },
+  {
+    "id": "b018",
+    "en": "royalty-free",
+    "ja": "ロイヤリティフリー(追加使用料不要)",
+    "example": "We licensed a royalty-free track for the background music.",
+    "exampleJa": "BGMにはロイヤリティフリーの楽曲のライセンスを取得しました。",
+    "ipa": "/ˈrɔɪəlti friː/",
+    "tag": "business"
+  },
+  {
+    "id": "b019",
+    "en": "watermark",
+    "ja": "透かし、ウォーターマーク",
+    "example": "The preview link has a watermark until the invoice is paid.",
+    "exampleJa": "請求書の支払いが完了するまで、プレビュー用リンクには透かしが入ります。",
+    "ipa": "/ˈwɔːtərmɑːrk/",
+    "tag": "business"
+  },
+  {
+    "id": "b020",
+    "en": "placeholder",
+    "ja": "仮素材、プレースホルダー",
+    "example": "That's just a placeholder graphic, we'll swap in the final logo later.",
+    "exampleJa": "それは仮のプレースホルダー画像で、後で最終ロゴに差し替えます。",
+    "ipa": "/ˈpleɪshoʊldər/",
+    "tag": "business"
+  },
+  {
+    "id": "b021",
+    "en": "final approval",
+    "ja": "最終承認",
+    "example": "We can deliver the master file as soon as we get final approval.",
+    "exampleJa": "最終承認をいただき次第、マスターファイルを納品できます。",
+    "ipa": "/ˈfaɪnəl əˈpruːvəl/",
+    "tag": "business"
+  },
+  {
+    "id": "b022",
+    "en": "raw footage",
+    "ja": "未編集の生素材",
+    "example": "Could you also send us the raw footage for our archive?",
+    "exampleJa": "アーカイブ用に、未編集の生素材も送っていただけますか?",
+    "ipa": "/rɔː ˈfʊtɪdʒ/",
+    "tag": "business"
+  },
+  {
+    "id": "b023",
+    "en": "archive",
+    "ja": "アーカイブ、保管する",
+    "example": "We archive all project files for at least one year after delivery.",
+    "exampleJa": "納品後、すべてのプロジェクトファイルを最低1年間保管しています。",
+    "ipa": "/ˈɑːrkaɪv/",
+    "tag": "business"
+  },
+  {
+    "id": "b024",
+    "en": "backup",
+    "ja": "バックアップ",
+    "example": "Always keep a backup of the master file on a separate drive.",
+    "exampleJa": "マスターファイルのバックアップは必ず別のドライブに保管してください。",
+    "ipa": "/ˈbækʌp/",
+    "tag": "business"
+  },
+  {
+    "id": "b025",
+    "en": "file transfer",
+    "ja": "ファイル転送",
+    "example": "I'll set up a file transfer link since the footage is too large for email.",
+    "exampleJa": "映像がメールで送るには大きすぎるので、ファイル転送用のリンクを用意します。",
+    "ipa": "/faɪl ˈtrænsfɜːr/",
+    "tag": "business"
+  },
+  {
+    "id": "b026",
+    "en": "follow up",
+    "ja": "フォローアップする、後日連絡する",
+    "example": "I'll follow up with the client tomorrow about the payment.",
+    "exampleJa": "明日、支払いについてクライアントにフォローアップの連絡をします。",
+    "ipa": "/ˈfɒloʊ ʌp/",
+    "tag": "business"
+  },
+  {
+    "id": "b027",
+    "en": "due date",
+    "ja": "支払期日、期限",
+    "example": "The invoice due date is thirty days from delivery.",
+    "exampleJa": "請求書の支払期日は納品から30日後です。",
+    "ipa": "/duː deɪt/",
+    "tag": "business"
+  },
+  {
+    "id": "b028",
+    "en": "purchase order",
+    "ja": "発注書(PO)",
+    "example": "We can't start work until the purchase order is confirmed.",
+    "exampleJa": "発注書(PO)が確定するまで、作業は開始できません。",
+    "ipa": "/ˈpɜːrtʃəs ˈɔːrdər/",
+    "tag": "business"
+  },
+  {
+    "id": "b029",
+    "en": "retainer",
+    "ja": "顧問契約、継続契約料",
+    "example": "They pay us a monthly retainer for ongoing content production.",
+    "exampleJa": "継続的なコンテンツ制作に対して、月額の顧問契約料を支払ってもらっています。",
+    "ipa": "/rɪˈteɪnər/",
+    "tag": "business"
+  },
+  {
+    "id": "b030",
+    "en": "subcontractor",
+    "ja": "下請け業者、外部委託先",
+    "example": "We brought in a subcontractor to handle the drone shots.",
+    "exampleJa": "ドローン撮影は下請け業者に依頼しました。",
+    "ipa": "/ˌsʌbkənˈtræktər/",
+    "tag": "business"
+  },
+  {
+    "id": "d001",
+    "en": "How's it going?",
+    "ja": "調子はどう?",
+    "example": "Hey, how's it going? It's been a while since we talked.",
+    "exampleJa": "やあ、調子はどう?話すのは久しぶりだね。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d002",
+    "en": "Nice to meet you",
+    "ja": "はじめまして",
+    "example": "Nice to meet you, I've heard a lot about your work.",
+    "exampleJa": "はじめまして。あなたのお仕事についてはいろいろ聞いています。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d003",
+    "en": "Could you repeat that?",
+    "ja": "もう一度言っていただけますか?",
+    "example": "Sorry, could you repeat that? The connection cut out for a second.",
+    "exampleJa": "すみません、もう一度言っていただけますか?一瞬回線が切れてしまって。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d004",
+    "en": "I appreciate it",
+    "ja": "感謝します、ありがたいです",
+    "example": "Thanks for turning this around so quickly, I really appreciate it.",
+    "exampleJa": "こんなに早く対応してくれてありがとう、本当に感謝しています。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d005",
+    "en": "No worries",
+    "ja": "気にしないで、問題ないよ",
+    "example": "No worries, we can push the meeting to tomorrow.",
+    "exampleJa": "気にしないで、ミーティングは明日に延ばせますから。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d006",
+    "en": "Let me check",
+    "ja": "確認しますね",
+    "example": "Let me check my calendar and get back to you.",
+    "exampleJa": "カレンダーを確認して、また連絡しますね。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d007",
+    "en": "I'll get back to you",
+    "ja": "また後で連絡します",
+    "example": "I'll get back to you by the end of the day with an answer.",
+    "exampleJa": "今日中に回答してご連絡します。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d008",
+    "en": "Sounds good",
+    "ja": "いいですね、了解です",
+    "example": "Sounds good, let's plan to meet at ten.",
+    "exampleJa": "いいですね、10時に会う予定にしましょう。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d009",
+    "en": "Let's touch base",
+    "ja": "近いうちに連絡を取り合いましょう",
+    "example": "Let's touch base next week once you've reviewed the draft.",
+    "exampleJa": "ドラフトを確認してもらったら、来週改めて連絡を取り合いましょう。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d010",
+    "en": "Take your time",
+    "ja": "ゆっくりでいいですよ",
+    "example": "No rush at all, take your time reviewing the footage.",
+    "exampleJa": "急がなくて大丈夫です、映像の確認はゆっくりで構いません。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d011",
+    "en": "I'm on my way",
+    "ja": "今向かっています",
+    "example": "I'm on my way, I should be there in ten minutes.",
+    "exampleJa": "今向かっています、10分ほどで着くと思います。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d012",
+    "en": "Running a few minutes late",
+    "ja": "少し遅れています",
+    "example": "Sorry, I'm running a few minutes late because of traffic.",
+    "exampleJa": "すみません、渋滞で少し遅れています。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d013",
+    "en": "Thanks for your patience",
+    "ja": "お待たせしてすみません、辛抱強く待ってくれてありがとう",
+    "example": "Thanks for your patience while we sorted out the file issue.",
+    "exampleJa": "ファイルの問題を解決する間、辛抱強く待ってくれてありがとうございました。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d014",
+    "en": "Have a safe trip",
+    "ja": "気をつけて行ってらっしゃい",
+    "example": "Have a safe trip, see you when you're back!",
+    "exampleJa": "気をつけて行ってらっしゃい、戻ったらまた会いましょう!",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d015",
+    "en": "Let me know if you need anything",
+    "ja": "何か必要なことがあれば教えてください",
+    "example": "Let me know if you need anything else before the shoot.",
+    "exampleJa": "撮影前に何か必要なものがあれば教えてください。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d016",
+    "en": "That works for me",
+    "ja": "それで大丈夫です",
+    "example": "Tuesday afternoon? That works for me.",
+    "exampleJa": "火曜の午後?それで大丈夫です。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d017",
+    "en": "Let's circle back",
+    "ja": "また後で話しましょう、改めて相談しましょう",
+    "example": "Let's circle back on the budget once we have the final scope.",
+    "exampleJa": "最終的な業務範囲が決まったら、予算については改めて相談しましょう。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d018",
+    "en": "I'll keep you posted",
+    "ja": "また随時報告します",
+    "example": "I'll keep you posted as soon as I hear from the client.",
+    "exampleJa": "クライアントから連絡があり次第、随時報告しますね。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d019",
+    "en": "Just to confirm",
+    "ja": "確認なんですが",
+    "example": "Just to confirm, the shoot starts at 9am on Thursday, right?",
+    "exampleJa": "確認なんですが、撮影は木曜の午前9時開始で合っていますか?",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d020",
+    "en": "Looking forward to it",
+    "ja": "楽しみにしています",
+    "example": "Looking forward to it, this project sounds exciting.",
+    "exampleJa": "楽しみにしています、このプロジェクトは面白そうですね。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d021",
+    "en": "See you then",
+    "ja": "その時に会いましょう",
+    "example": "Great, see you then at the studio.",
+    "exampleJa": "了解です、それではスタジオでお会いしましょう。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d022",
+    "en": "Talk soon",
+    "ja": "また近いうちに話しましょう",
+    "example": "Talk soon, I'll send the files tonight.",
+    "exampleJa": "また近いうちに。今夜中にファイルを送りますね。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d023",
+    "en": "My pleasure",
+    "ja": "どういたしまして、光栄です",
+    "example": "Thanks so much for your help. My pleasure, anytime.",
+    "exampleJa": "本当に助かりました。どういたしまして、いつでもどうぞ。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d024",
+    "en": "Not a problem",
+    "ja": "問題ありません",
+    "example": "Not a problem, we can reshoot that scene tomorrow.",
+    "exampleJa": "問題ありません、そのシーンは明日撮り直しましょう。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "d025",
+    "en": "I hope this email finds you well",
+    "ja": "お元気でお過ごしのことと思います(メール冒頭の挨拶)",
+    "example": "I hope this email finds you well, I'm reaching out about the project timeline.",
+    "exampleJa": "お元気でお過ごしのことと思います。プロジェクトのスケジュールの件でご連絡いたしました。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "h001",
+    "en": "rifle",
+    "ja": "ライフル銃",
+    "example": "He cleaned his rifle before the hunting trip.",
+    "exampleJa": "彼は狩猟に出かける前にライフルの手入れをした。",
+    "ipa": "/ˈraɪfəl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h002",
+    "en": "shotgun",
+    "ja": "散弾銃",
+    "example": "A shotgun is commonly used for bird hunting.",
+    "exampleJa": "散弾銃は鳥猟でよく使われます。",
+    "ipa": "/ˈʃɒtɡʌn/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h003",
+    "en": "scope",
+    "ja": "スコープ、照準器",
+    "example": "Adjust the scope before you head out to the stand.",
+    "exampleJa": "見張り場所に向かう前に、スコープを調整しておいてください。",
+    "ipa": "/skoʊp/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h004",
+    "en": "trigger",
+    "ja": "引き金、トリガー",
+    "example": "Keep your finger off the trigger until you're ready to shoot.",
+    "exampleJa": "撃つ準備ができるまで、指を引き金にかけないでください。",
+    "ipa": "/ˈtrɪɡər/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h005",
+    "en": "safety catch",
+    "ja": "安全装置(セーフティ)",
+    "example": "Always engage the safety catch when you're not aiming.",
+    "exampleJa": "狙っていないときは、必ず安全装置(セーフティ)をかけてください。",
+    "ipa": "/ˈseɪfti kætʃ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h006",
+    "en": "ammunition",
+    "ja": "弾薬",
+    "example": "Store your ammunition separately from the firearm.",
+    "exampleJa": "弾薬は銃本体とは別の場所に保管してください。",
+    "ipa": "/ˌæmjəˈnɪʃən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h007",
+    "en": "cartridge",
+    "ja": "薬莢、実包",
+    "example": "Make sure you're using the right cartridge for your rifle.",
+    "exampleJa": "自分のライフルに合った薬莢(実包)を使っているか確認してください。",
+    "ipa": "/ˈkɑːrtrɪdʒ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h008",
+    "en": "trap",
+    "ja": "罠、トラップ",
+    "example": "We checked the traps early in the morning.",
+    "exampleJa": "私たちは早朝に罠を見回りました。",
+    "ipa": "/træp/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h009",
+    "en": "snare",
+    "ja": "くくり罠、スネア",
+    "example": "Snares must be checked regularly under local regulations.",
+    "exampleJa": "地域の規則により、くくり罠は定期的に見回る必要があります。",
+    "ipa": "/snɛr/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h010",
+    "en": "bolt action",
+    "ja": "ボルトアクション式",
+    "example": "He prefers a bolt action rifle for long-range shots.",
+    "exampleJa": "彼は遠距離射撃にはボルトアクション式ライフルを好んで使います。",
+    "ipa": "/boʊlt ˈækʃən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h011",
+    "en": "muzzle",
+    "ja": "銃口",
+    "example": "Never point the muzzle at anything you don't intend to shoot.",
+    "exampleJa": "撃つつもりのないものに銃口を向けてはいけません。",
+    "ipa": "/ˈmʌzəl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h012",
+    "en": "barrel",
+    "ja": "銃身",
+    "example": "Clean the barrel thoroughly after every hunt.",
+    "exampleJa": "狩猟のたびに、銃身をしっかり手入れしてください。",
+    "ipa": "/ˈbærəl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h013",
+    "en": "stock",
+    "ja": "銃床",
+    "example": "The stock felt a bit too long for him.",
+    "exampleJa": "彼にとって銃床は少し長く感じられた。",
+    "ipa": "/stɒk/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h014",
+    "en": "sling",
+    "ja": "スリング(銃を担ぐベルト)",
+    "example": "Use a sling to carry the rifle comfortably on the hike in.",
+    "exampleJa": "現場まで歩く間は、スリングを使ってライフルを楽に持ち運びましょう。",
+    "ipa": "/slɪŋ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h015",
+    "en": "crosshairs",
+    "ja": "十字線、レティクル",
+    "example": "Keep the crosshairs steady before you squeeze the trigger.",
+    "exampleJa": "引き金を引く前に、十字線(クロスヘア)をしっかり静止させてください。",
+    "ipa": "/ˈkrɔːshɛrz/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h016",
+    "en": "choke",
+    "ja": "チョーク(散弾の広がりを調整する部品)",
+    "example": "A tighter choke gives a denser shot pattern at range.",
+    "exampleJa": "チョークを絞ることで、遠距離での弾の集弾性が高まります。",
+    "ipa": "/tʃoʊk/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h017",
+    "en": "gauge",
+    "ja": "ゲージ(散弾銃の口径単位)",
+    "example": "A 12 gauge shotgun is the most common choice.",
+    "exampleJa": "12ゲージの散弾銃が最も一般的な選択です。",
+    "ipa": "/ɡeɪdʒ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h018",
+    "en": "caliber",
+    "ja": "口径",
+    "example": "What caliber does your rifle chamber?",
+    "exampleJa": "あなたのライフルはどの口径に対応していますか?",
+    "ipa": "/ˈkælɪbər/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h019",
+    "en": "decoy",
+    "ja": "デコイ、おとり",
+    "example": "We set up the decoys before sunrise.",
+    "exampleJa": "日の出前にデコイを設置しました。",
+    "ipa": "/ˈdiːkɔɪ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h020",
+    "en": "blind",
+    "ja": "ブラインド(身を隠す仮設の隠れ場所)",
+    "example": "We waited quietly inside the blind for the ducks.",
+    "exampleJa": "私たちはブラインドの中で静かにカモを待ちました。",
+    "ipa": "/blaɪnd/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h021",
+    "en": "tree stand",
+    "ja": "ツリースタンド(樹上の見張り台)",
+    "example": "Always wear a harness when climbing into a tree stand.",
+    "exampleJa": "ツリースタンドに登るときは、必ずハーネスを着用してください。",
+    "ipa": "/triː stænd/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h022",
+    "en": "game camera",
+    "ja": "トレイルカメラ(自動撮影カメラ)",
+    "example": "The game camera showed a big buck passing through at night.",
+    "exampleJa": "トレイルカメラには、夜中に大きな雄鹿が通り過ぎる様子が写っていました。",
+    "ipa": "/ɡeɪm ˈkæmərə/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h023",
+    "en": "bow",
+    "ja": "弓",
+    "example": "Bow season starts earlier than rifle season here.",
+    "exampleJa": "この地域では、弓猟の解禁はライフル猟より早く始まります。",
+    "ipa": "/boʊ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h024",
+    "en": "crossbow",
+    "ja": "クロスボウ(洋弓銃)",
+    "example": "He switched to a crossbow this year.",
+    "exampleJa": "彼は今年からクロスボウに切り替えました。",
+    "ipa": "/ˈkrɔːsboʊ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h025",
+    "en": "broadhead",
+    "ja": "ブロードヘッド(矢じり)",
+    "example": "Make sure your broadheads are sharp before the hunt.",
+    "exampleJa": "狩猟前に、ブロードヘッド(矢じり)がよく研げているか確認してください。",
+    "ipa": "/ˈbrɔːdhɛd/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h026",
+    "en": "stalking",
+    "ja": "ストーキング、忍び寄ること",
+    "example": "Stalking deer requires patience and moving with the wind.",
+    "exampleJa": "鹿を忍び猟(ストーキング)するには、忍耐力と風向きを読んで動くことが必要です。",
+    "ipa": "/ˈstɔːkɪŋ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h027",
+    "en": "tracking",
+    "ja": "追跡すること",
+    "example": "Tracking a wounded animal can take hours.",
+    "exampleJa": "手負いの獲物を追跡するのに、何時間もかかることがあります。",
+    "ipa": "/ˈtrækɪŋ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h028",
+    "en": "field dressing",
+    "ja": "内臓処理(解体作業)",
+    "example": "Field dressing the deer right away keeps the meat fresh.",
+    "exampleJa": "仕留めた鹿をすぐに内臓処理すると、肉の鮮度を保てます。",
+    "ipa": "/fiːld ˈdrɛsɪŋ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h029",
+    "en": "game warden",
+    "ja": "猟区管理官",
+    "example": "The game warden checked everyone's licenses at the checkpoint.",
+    "exampleJa": "猟区管理官が検問で全員の免許を確認しました。",
+    "ipa": "/ɡeɪm ˈwɔːrdən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h030",
+    "en": "hunting license",
+    "ja": "狩猟免許",
+    "example": "You need a valid hunting license before you go out.",
+    "exampleJa": "出猟する前に、有効な狩猟免許が必要です。",
+    "ipa": "/ˈhʌntɪŋ ˈlaɪsəns/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h031",
+    "en": "closed season",
+    "ja": "禁猟期",
+    "example": "Hunting is prohibited during the closed season.",
+    "exampleJa": "禁猟期の間は狩猟が禁止されています。",
+    "ipa": "/kloʊzd ˈsiːzən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h032",
+    "en": "open season",
+    "ja": "狩猟解禁期間",
+    "example": "Open season for deer starts in November.",
+    "exampleJa": "鹿の狩猟解禁期間は11月から始まります。",
+    "ipa": "/ˈoʊpən ˈsiːzən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h033",
+    "en": "bag limit",
+    "ja": "捕獲制限数",
+    "example": "The bag limit is two deer per hunter this season.",
+    "exampleJa": "今シーズンの捕獲制限数は、猟師1人につき鹿2頭までです。",
+    "ipa": "/bæɡ ˈlɪmɪt/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h034",
+    "en": "still hunting",
+    "ja": "忍び猟(静かに歩いて獲物を探す猟法)",
+    "example": "Still hunting means moving slowly and stopping often to look and listen.",
+    "exampleJa": "忍び猟(スティルハンティング)とは、ゆっくり動いては立ち止まり、目と耳で獲物を探す猟法です。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h035",
+    "en": "spot and stalk",
+    "ja": "スポット・アンド・ストーク猟",
+    "example": "Spot and stalk works well in open terrain.",
+    "exampleJa": "スポット・アンド・ストーク猟は、見通しの良い地形で効果的です。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h036",
+    "en": "shot placement",
+    "ja": "弾着位置、狙う部位",
+    "example": "Good shot placement ensures a quick, ethical kill.",
+    "exampleJa": "適切な弾着位置は、素早く苦痛の少ない仕留めにつながります。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h037",
+    "en": "blood trail",
+    "ja": "血痕の跡",
+    "example": "We followed the blood trail into the woods.",
+    "exampleJa": "私たちは血痕の跡をたどって森の中へ入りました。",
+    "ipa": "/blʌd treɪl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h038",
+    "en": "gut pile",
+    "ja": "内臓の残骸(解体後に残る部分)",
+    "example": "Leave the gut pile away from any trails.",
+    "exampleJa": "内臓の残骸(ガットパイル)は、登山道や獣道から離れた場所に残してください。",
+    "ipa": "/ɡʌt paɪl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h039",
+    "en": "wildlife management",
+    "ja": "野生動物管理",
+    "example": "Wildlife management helps keep animal populations balanced.",
+    "exampleJa": "野生動物管理は、動物の個体数バランスを保つのに役立ちます。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h040",
+    "en": "culling",
+    "ja": "個体数調整のための間引き",
+    "example": "Culling is sometimes necessary to protect the local ecosystem.",
+    "exampleJa": "地域の生態系を守るために、個体数調整のための間引きが必要になることもあります。",
+    "ipa": "/ˈkʌlɪŋ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h041",
+    "en": "deer population",
+    "ja": "鹿の個体数",
+    "example": "The deer population has grown rapidly in the past decade.",
+    "exampleJa": "この10年で鹿の個体数は急速に増加しました。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h042",
+    "en": "crop damage",
+    "ja": "農作物被害",
+    "example": "Crop damage from wild boar has become a serious problem.",
+    "exampleJa": "イノシシによる農作物被害が深刻な問題になっています。",
+    "ipa": "/krɒp ˈdæmɪdʒ/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h043",
+    "en": "invasive species",
+    "ja": "外来種、侵略的外来種",
+    "example": "Invasive species can disrupt the local food chain.",
+    "exampleJa": "外来種は地域の食物連鎖を乱す可能性があります。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h044",
+    "en": "pest control",
+    "ja": "有害鳥獣駆除、害獣駆除",
+    "example": "Pest control programs aim to reduce damage to farmland.",
+    "exampleJa": "有害鳥獣駆除の取り組みは、農地への被害を減らすことを目的としています。",
+    "ipa": "/pɛst kənˈtroʊl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h045",
+    "en": "nuisance animal",
+    "ja": "有害獣",
+    "example": "The town hired a hunter to deal with the nuisance animals.",
+    "exampleJa": "町は有害獣への対応のため、猟師を雇いました。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h046",
+    "en": "muzzle discipline",
+    "ja": "銃口管理(常に安全な方向に向ける基本動作)",
+    "example": "Muzzle discipline is the first rule taught in any hunting safety course.",
+    "exampleJa": "銃口管理は、どの狩猟安全講習でも最初に教えられる基本原則です。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h047",
+    "en": "load / unload",
+    "ja": "装填する／弾を抜く",
+    "example": "Always unload your firearm before crossing a fence.",
+    "exampleJa": "柵を越える前には、必ず銃の弾を抜いてください。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h048",
+    "en": "safe direction",
+    "ja": "安全な方向",
+    "example": "Keep the barrel pointed in a safe direction at all times.",
+    "exampleJa": "銃身は常に安全な方向へ向けておいてください。",
+    "ipa": "/seɪf dɪˈrɛkʃən/",
+    "tag": "hunting"
+  },
+  {
+    "id": "h049",
+    "en": "know your target and beyond",
+    "ja": "標的とその先を確認する(安全原則)",
+    "example": "Know your target and beyond before you ever pull the trigger.",
+    "exampleJa": "引き金を引く前に、必ず標的とその先まで確認してください。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "h050",
+    "en": "hunter orange",
+    "ja": "ハンターオレンジ(視認性の高い安全色)",
+    "example": "Wearing hunter orange makes you visible to other hunters.",
+    "exampleJa": "ハンターオレンジを着用すると、他の猟師から見えやすくなります。",
+    "ipa": "",
+    "tag": "hunting"
+  }
 ]

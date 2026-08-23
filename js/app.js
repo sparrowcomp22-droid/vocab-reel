@@ -100,6 +100,13 @@
     $('#card-ipa').textContent = card.ipa || '';
     $('#card-ja').textContent = card.ja;
     $('#card-example').textContent = card.example || '';
+    if (card.exampleJa && card.exampleJa.trim()) {
+      $('#card-example-ja').textContent = card.exampleJa;
+      $('#card-example-ja').classList.remove('hidden');
+    } else {
+      $('#card-example-ja').textContent = '';
+      $('#card-example-ja').classList.add('hidden');
+    }
 
     $('#card-back').classList.add('hidden');
     document.querySelector('.card-front').classList.remove('hidden');
@@ -125,6 +132,10 @@
   });
   $('#btn-speak-back').addEventListener('click', () => {
     TTS.speak(currentCard().en);
+  });
+  $('#btn-speak-example').addEventListener('click', () => {
+    const example = currentCard().example;
+    if (example) TTS.speak(example);
   });
 
   $('#btn-check-pronounce').addEventListener('click', async () => {
@@ -235,6 +246,7 @@
       $('#edit-en').value = card.en;
       $('#edit-ja').value = card.ja;
       $('#edit-example').value = card.example || '';
+      $('#edit-example-ja').value = card.exampleJa || '';
       $('#edit-ipa').value = card.ipa || '';
       $('#edit-tag').value = card.tag;
       $('#btn-delete-card').classList.remove('hidden');
@@ -251,6 +263,7 @@
       en: $('#edit-en').value.trim(),
       ja: $('#edit-ja').value.trim(),
       example: $('#edit-example').value.trim(),
+      exampleJa: $('#edit-example-ja').value.trim(),
       ipa: $('#edit-ipa').value.trim(),
       tag: $('#edit-tag').value
     };

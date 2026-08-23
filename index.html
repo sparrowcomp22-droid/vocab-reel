@@ -79,14 +79,19 @@
         <div class="card-face card-front">
           <div class="card-en" id="card-en">on location</div>
           <div class="card-ipa" id="card-ipa"></div>
-          <button class="btn-speak" id="btn-speak-front">🔊 発音を聞く</button>
+          <button class="btn-speak" id="btn-speak-front">🔊 単語を聞く</button>
           <div class="card-hint">タップしてめくる</div>
         </div>
 
         <div class="card-face card-back hidden" id="card-back">
           <div class="card-ja" id="card-ja"></div>
-          <div class="card-example" id="card-example"></div>
-          <button class="btn-speak" id="btn-speak-back">🔊 もう一度聞く</button>
+          <button class="btn-speak" id="btn-speak-back">🔊 単語を聞く</button>
+
+          <div class="example-block">
+            <div class="card-example" id="card-example"></div>
+            <div class="card-example-ja hidden" id="card-example-ja"></div>
+            <button class="btn-speak btn-speak-example" id="btn-speak-example">🔊 例文を聞く</button>
+          </div>
 
           <div class="pronounce-box">
             <label class="pronounce-label" for="pronounce-input">🎤 発音チェック(キーボードのマイクで話す)</label>
@@ -154,6 +159,7 @@
       <label>英語表現<input type="text" id="edit-en" required></label>
       <label>日本語訳<input type="text" id="edit-ja" required></label>
       <label>例文<textarea id="edit-example" rows="2"></textarea></label>
+      <label>例文の日本語訳(任意)<textarea id="edit-example-ja" rows="2"></textarea></label>
       <label>発音記号(任意)<input type="text" id="edit-ipa"></label>
       <label>タグ
         <select id="edit-tag">
