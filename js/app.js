@@ -1,5 +1,5 @@
 (() => {
-  const TAG_LABEL = { video: '映像制作', business: 'ビジネス', daily: '日常会話' };
+  const TAG_LABEL = { video: '映像制作', business: 'ビジネス', daily: '日常会話', hunting: '狩猟' };
 
   const state = {
     homeTag: 'all',

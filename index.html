@@ -48,6 +48,7 @@
       <button class="chip" data-tag="video">映像制作</button>
       <button class="chip" data-tag="business">ビジネス</button>
       <button class="chip" data-tag="daily">日常会話</button>
+      <button class="chip" data-tag="hunting">狩猟</button>
     </section>
 
     <button class="btn-primary" id="btn-start-review">
@@ -90,7 +91,7 @@
           <div class="pronounce-box">
             <label class="pronounce-label" for="pronounce-input">🎤 発音チェック(キーボードのマイクで話す)</label>
             <div class="pronounce-row">
-              <input type="text" id="pronounce-input" class="pronounce-input" placeholder="ここをタップしてマイクで発話" autocomplete="off" autocapitalize="off" autocorrect="off">
+              <input type="text" id="pronounce-input" class="pronounce-input" placeholder="ここをタップしてマイクで発話" lang="en-US" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
               <button class="btn-check" id="btn-check-pronounce">判定</button>
             </div>
             <div class="pronounce-result hidden" id="pronounce-result">
@@ -137,6 +138,7 @@
       <button class="chip" data-tag="video">映像制作</button>
       <button class="chip" data-tag="business">ビジネス</button>
       <button class="chip" data-tag="daily">日常会話</button>
+      <button class="chip" data-tag="hunting">狩猟</button>
     </div>
     <div class="manage-list" id="manage-list"></div>
   </main>
@@ -158,6 +160,7 @@
           <option value="video">映像制作</option>
           <option value="business">ビジネス</option>
           <option value="daily">日常会話</option>
+          <option value="hunting">狩猟</option>
         </select>
       </label>
       <div class="edit-form-actions">
