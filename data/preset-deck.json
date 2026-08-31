@@ -1258,5 +1258,230 @@
     "exampleJa": "ハンターオレンジを着用すると、他の猟師から見えやすくなります。",
     "ipa": "",
     "tag": "hunting"
+  },
+  {
+    "id": "w001",
+    "en": "keep you on your toes",
+    "ja": "気を抜けないようにさせる、常に注意させる",
+    "example": "Ponta keeps me on my toes.",
+    "exampleJa": "ポンタがいると気が抜けません。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w002",
+    "en": "keep you sharp",
+    "ja": "頭を冴えた状態にしておく",
+    "example": "Walking with Ponta keeps me sharp.",
+    "exampleJa": "ポンタとの散歩は頭を冴えた状態にしてくれます。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w003",
+    "en": "sniff around",
+    "ja": "あちこち匂いを嗅ぐ",
+    "example": "He's sniffing around by the roadside.",
+    "exampleJa": "彼は道端であちこち匂いを嗅いでいます。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w004",
+    "en": "roadside",
+    "ja": "道端、道路の脇",
+    "example": "He's sniffing by the roadside.",
+    "exampleJa": "彼は道端で匂いを嗅いでいます。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w005",
+    "en": "sense the presence of ~",
+    "ja": "～の気配を感じる",
+    "example": "He can sense the presence of other animals.",
+    "exampleJa": "彼はほかの動物の気配を感じ取れます。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w006",
+    "en": "scent",
+    "ja": "匂い、動物の残り香",
+    "example": "He picked up a scent.",
+    "exampleJa": "彼は何かの匂いを嗅ぎつけました。",
+    "ipa": "/sent/",
+    "tag": "hunting"
+  },
+  {
+    "id": "w007",
+    "en": "cull",
+    "ja": "個体数管理などのために動物を駆除する",
+    "example": "We cull wild animals to reduce crop damage.",
+    "exampleJa": "農作物被害を減らすために野生動物を駆除します。",
+    "ipa": "/kʌl/",
+    "tag": "hunting"
+  },
+  {
+    "id": "w008",
+    "en": "culled",
+    "ja": "cullの過去形、駆除した",
+    "example": "I culled a Japanese macaque today.",
+    "exampleJa": "今日、ニホンザルを一頭駆除しました。",
+    "ipa": "/kʌld/",
+    "tag": "hunting"
+  },
+  {
+    "id": "w009",
+    "en": "remove",
+    "ja": "除去する、駆除する（cullより柔らかい表現）",
+    "example": "The animal was safely removed from the area.",
+    "exampleJa": "その動物はその区域から安全に移されました。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "w010",
+    "en": "Japanese macaque",
+    "ja": "ニホンザル",
+    "example": "I saw a Japanese macaque near the field.",
+    "exampleJa": "畑の近くでニホンザルを見ました。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "w011",
+    "en": "snow monkey",
+    "ja": "ニホンザルの通称",
+    "example": "Japanese macaques are also called snow monkeys.",
+    "exampleJa": "ニホンザルはスノーモンキーとも呼ばれます。",
+    "ipa": "",
+    "tag": "hunting"
+  },
+  {
+    "id": "w012",
+    "en": "by the way",
+    "ja": "ところで、話は変わるけど",
+    "example": "By the way, I have a question.",
+    "exampleJa": "ところで、質問があります。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w013",
+    "en": "speaking of ~",
+    "ja": "～と言えば、～の話で思い出したけど",
+    "example": "Speaking of dogs, where's Ponta?",
+    "exampleJa": "犬と言えば、ポンタはどこ？",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w014",
+    "en": "spot on",
+    "ja": "その通り、まさに正解",
+    "example": "That's spot on!",
+    "exampleJa": "まさにその通りです！",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w015",
+    "en": "nailed it",
+    "ja": "バッチリできた、完璧に決めた",
+    "example": "You nailed it!",
+    "exampleJa": "バッチリ決まりましたね！",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w016",
+    "en": "right on!",
+    "ja": "いいね！、そうそう！",
+    "example": "Right on! That's exactly what I meant.",
+    "exampleJa": "そうそう！まさにそういう意味です。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w017",
+    "en": "do his business",
+    "ja": "犬などが用を足す",
+    "example": "He's doing his business.",
+    "exampleJa": "彼は今、用を足しています。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w018",
+    "en": "chase",
+    "ja": "追いかける",
+    "example": "Ponta tried to chase the snake.",
+    "exampleJa": "ポンタはヘビを追いかけようとしました。",
+    "ipa": "/tʃeɪs/",
+    "tag": "daily"
+  },
+  {
+    "id": "w019",
+    "en": "pull on the leash",
+    "ja": "リードを引っ張る",
+    "example": "He's pulling on the leash.",
+    "exampleJa": "彼はリードを引っ張っています。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w020",
+    "en": "clip on the leash",
+    "ja": "リードを取り付ける",
+    "example": "I clipped on the leash before we left.",
+    "exampleJa": "出発する前にリードを取り付けました。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w021",
+    "en": "switch dogs",
+    "ja": "散歩する犬を交代する",
+    "example": "I switched dogs before the second walk.",
+    "exampleJa": "2回目の散歩の前に犬を交代しました。",
+    "ipa": "",
+    "tag": "daily"
+  },
+  {
+    "id": "w022",
+    "en": "submit",
+    "ja": "提出する",
+    "example": "I need to submit the report, photos, and the tail.",
+    "exampleJa": "報告書と写真と尻尾を提出する必要があります。",
+    "ipa": "/səbˈmɪt/",
+    "tag": "business"
+  },
+  {
+    "id": "w023",
+    "en": "submitted",
+    "ja": "submitの過去形、提出した",
+    "example": "I submitted the report, photos, and the tail.",
+    "exampleJa": "報告書と写真と尻尾を提出しました。",
+    "ipa": "/səbˈmɪtɪd/",
+    "tag": "business"
+  },
+  {
+    "id": "w024",
+    "en": "report",
+    "ja": "報告書",
+    "example": "I submitted the report this morning.",
+    "exampleJa": "今朝、報告書を提出しました。",
+    "ipa": "",
+    "tag": "business"
+  },
+  {
+    "id": "w025",
+    "en": "phone battery is running low",
+    "ja": "スマホのバッテリーが少なくなってきた",
+    "example": "My phone battery is running low.",
+    "exampleJa": "スマホのバッテリーが少なくなってきました。",
+    "ipa": "",
+    "tag": "daily"
   }
 ]
